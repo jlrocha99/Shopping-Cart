@@ -1,0 +1,27 @@
+
+header .logo {
+    float: left;
+    display: block;
+    
+}
+header .nav1 {
+    float: center;
+    padding: 20px 0px 40px 200px;
+    
+}
+header .nav2 {
+    float: right;
+    padding: 6px;
+    margin-top: -110px;
+    margin-right: 16px;
+
+}
+
+
+
+
+header .h1 {
+    text-align: center;
+    padding: 10px;
+    
+}
