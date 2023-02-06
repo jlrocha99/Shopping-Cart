@@ -1,27 +1,65 @@
+.container {
+    background-color: rgb(184, 184, 110);
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.logo {
+    width: 20%;
+    height: 50px;
+    text-align: right;
+}
+.nav1 {
+    padding: 10px 10px 10px 10px;
 
-header .logo {
+}
+.nav1 .boxtext {
     float: left;
-    display: block;
-    
+    width: 430px;
+    height: 30px;
+    border-radius: 5px;
 }
-header .nav1 {
-    float: center;
-    padding: 20px 0px 40px 200px;
-    
-}
-header .nav2 {
-    float: right;
-    padding: 6px;
-    margin-top: -110px;
-    margin-right: 16px;
+.nav1 .icon1 {
+    width: 7%;
+    height: 35px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 4px;
 
 }
-
-
-
-
-header .h1 {
+.nav2 {
+    width: 30%;
+    height: 100%;
+    border: 2px solid red;
     text-align: center;
-    padding: 10px;
+    
+}
+.nav2 .icon2 {
+    border: 1px solid gray;
+    float: left;
+    width: 10%;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.nav2 h5 {
+    width: 20%;
+    height: 40px;
+    border: 2px solid blue;
+}
+.nav2 a {
+    float: center;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid black;
+}
+.container2 {
+    background-color: rgb(141, 121, 121);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.head1 {
+    width: 30%;
+    height: 100px;
+    text-align: center;
     
 }
