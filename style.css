@@ -66,5 +66,70 @@
 }
 
 .content1 {
-    border: 2px solid blue;
+    width: 60%;
+    position: relative; left: 100px; top: 40px;
+    border: 2px solid rgb(235, 225, 225);
+    margin-left: 50px;
+}
+
+
+/* div="content" */
+th, td{
+    aborder: 2px solid green;
+
+}
+table .prod {
+    text-align: left;
+}
+table .top {
+    color: rgb(207, 189, 189);
+}
+table .p1 {
+    float: left;
+    margin-right: 5px;
+}
+table .text-p1 {
+    width: 350px;
+    text-align: left;
+}
+table .text2-p1 {
+    font-size: small;
+    color: rgb(207, 189, 189);
+    text-align: left;
+}
+td {
+    width: 10px;
+    aborder: 2px solid black;
+    text-align: left;
+    padding: 10px 10px 60px 10px;
+
+}
+table .favorite {
+    aborder: 2px solid red;
+    width: 200px;
+    text-align: right;
+    margin-left: 150px;
+
+}
+
+/*Side bar */
+.side_box1 {
+    border: 2px solid rgb(235, 225, 225);
+    width: 200px;
+    height: 100px;
+    display: block;
+    float: right;
+    position: relative; bottom: 353px; right: 200px;
+    text-align: center;
+
+}
+.boxtext {
+    position: relative; left: 10px;
+    
+}
+.apply_button {
+    background-color: blue;
+    color: white;
+    position: relative; right: 2px;
+    
 }
