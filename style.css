@@ -74,10 +74,7 @@
 
 
 /* div="content" */
-th, td{
-    aborder: 2px solid green;
 
-}
 table .prod {
     text-align: left;
 }
@@ -133,3 +130,19 @@ table .favorite {
     position: relative; right: 2px;
     
 }
+
+.side_box2 {
+    width: 200px;
+    height: 300px;
+    display: block;
+    float: right;
+    border: 2px solid darkblue;
+    position: relative; bottom: 200px; left: 5px;
+    
+}
+.side2 {
+    background-color: rgb(139, 139, 189);
+    width: 200px;
+    height: 300px;
+}
+/*Rename all tables and edit 1 by 1 */
