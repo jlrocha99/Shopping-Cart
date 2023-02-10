@@ -75,34 +75,32 @@
 
 /* div="content" */
 
-table .prod {
+.table1 .prod {
     text-align: left;
 }
-table .top {
+.table1 .top {
     color: rgb(207, 189, 189);
 }
-table .p1 {
+.table1 .p1 {
     float: left;
     margin-right: 5px;
 }
-table .text-p1 {
+.table1 .text-p1 {
     width: 350px;
     text-align: left;
 }
-table .text2-p1 {
+.table1 .text2-p1 {
     font-size: small;
     color: rgb(207, 189, 189);
     text-align: left;
 }
-td {
+.table1 td {
     width: 10px;
-    aborder: 2px solid black;
     text-align: left;
     padding: 10px 10px 60px 10px;
 
 }
-table .favorite {
-    aborder: 2px solid red;
+.table1 .favorite {
     width: 200px;
     text-align: right;
     margin-left: 150px;
@@ -112,11 +110,11 @@ table .favorite {
 /*Side bar */
 .side_box1 {
     border: 2px solid rgb(235, 225, 225);
-    width: 200px;
+    width: 250px;
     height: 100px;
     display: block;
     float: right;
-    position: relative; bottom: 353px; right: 200px;
+    position: relative; bottom: 353px; right: 170px;
     text-align: center;
 
 }
@@ -132,17 +130,48 @@ table .favorite {
 }
 
 .side_box2 {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     display: block;
     float: right;
-    border: 2px solid darkblue;
-    position: relative; bottom: 200px; left: 5px;
+    border: 2px solid rgb(235, 225, 225);
+    position: relative; bottom: 200px; left: 85px;
     
 }
-.side2 {
-    background-color: rgb(139, 139, 189);
+.table2 {
+   
     width: 200px;
-    height: 300px;
+    height: 100px;
 }
-/*Rename all tables and edit 1 by 1 */
+.table2 th {
+
+    text-align: left;
+    width: 120px;
+
+}
+.logo-side_box2{
+    border-top: 2px solid rgb(202, 194, 194);
+    text-align: center;
+    padding: 10px;
+}
+
+.content3 {
+    border: 2px solid red;
+    width: 60%;
+    height: 50px;
+    position: relative; top: 40px; left: 150px;
+}
+.button-c3 {
+    text-align: center;
+    padding: 10px;
+}
+.button-c3 .a1 {
+    margin-right: 600px;
+    height: 30px;
+    color: blue;
+    
+}
+.button-c3 .a2 {
+    height: 30px;
+    color: blue;;
+}
