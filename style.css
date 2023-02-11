@@ -1,7 +1,7 @@
 .container {
-    abackground-color: rgb(184, 184, 110);
     display: flex;
     height: 100px;
+    text-align: center;
     justify-content: space-between;
 }
 .logo {
@@ -11,19 +11,21 @@
 }
 .nav1 {
     padding: 10px 10px 10px 10px;
+    width: 40%;
 
 }
 .nav1 .boxtext {
-    float: left;
-    width: 430px;
-    height: 30px;
+    float: center;
+    width: 80%;
+    height: 35px;
     border-radius: 5px;
 }
 .nav1 .icon1 {
+    background-color: rgb(72, 72, 240);
     width: 7%;
-    height: 35px;
-    padding: 0px 0px 0px 0px;
-    border-radius: 4px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative; left: 5px; top: 9px;
 
 }
 .nav2 {
@@ -131,7 +133,7 @@
 
 .side_box2 {
     width: 250px;
-    height: 200px;
+    height: 180px;
     display: block;
     float: right;
     border: 2px solid rgb(235, 225, 225);
@@ -155,23 +157,49 @@
     padding: 10px;
 }
 
+.checkout {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(38, 170, 38);
+    display: block;
+    float: right;
+    position: relative; bottom: 0px; left: 340px;
+    text-align: center;
+
+
+}
+.checkout .check {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative; top: 15px;
+    cursor: pointer;
+}
+
 .content3 {
-    border: 2px solid red;
+    border: 2px solid rgb(202, 194, 194);
     width: 60%;
     height: 50px;
-    position: relative; top: 40px; left: 150px;
+    position: relative; top: 0px; left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button-c3 {
-    text-align: center;
-    padding: 10px;
+    width: 100%;
 }
+    
 .button-c3 .a1 {
-    margin-right: 600px;
     height: 30px;
-    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+
     
 }
 .button-c3 .a2 {
     height: 30px;
-    color: blue;;
+    cursor: pointer;
+    background-color: blue;
+    color: rgb(228, 226, 226);
+    margin-left: 630px;
 }
