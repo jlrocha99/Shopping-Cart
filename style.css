@@ -111,7 +111,8 @@
 
 /*Side bar */
 .side_box1 {
-    border: 2px solid rgb(235, 225, 225);
+    border: 2px solid red;
+    aborder: 2px solid rgb(235, 225, 225);
     width: 250px;
     height: 100px;
     display: block;
@@ -132,11 +133,12 @@
 }
 
 .side_box2 {
+    border: 2px solid red;
     width: 250px;
     height: 180px;
     display: block;
     float: right;
-    border: 2px solid rgb(235, 225, 225);
+    aborder: 2px solid rgb(235, 225, 225);
     position: relative; bottom: 200px; left: 85px;
     
 }
@@ -146,7 +148,6 @@
     height: 100px;
 }
 .table2 th {
-
     text-align: left;
     width: 120px;
 
@@ -158,6 +159,7 @@
 }
 
 .checkout {
+    border: 2px solid red;
     width: 250px;
     height: 50px;
     background-color: rgb(38, 170, 38);
@@ -177,7 +179,7 @@
 }
 
 .content3 {
-    border: 2px solid rgb(202, 194, 194);
+    border: 2px solid red;
     width: 60%;
     height: 50px;
     position: relative; top: 0px; left: 150px;
@@ -203,3 +205,6 @@
     color: rgb(228, 226, 226);
     margin-left: 630px;
 }
+
+/*align red boxes*/
+/*Study FlexBox*/
