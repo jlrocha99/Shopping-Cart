@@ -1,57 +1,62 @@
 .container {
-    display: flex;
+    border: 2px solid red;
     height: 100px;
-    text-align: center;
-    justify-content: space-between;
+    max-width: 100%;
+    display: flex;
+    /*Horizontal align*/
+    justify-content: space-around;
+    /*Vertical align*/
+    align-items: center;
+
 }
 .logo {
-    width: 20%;
+    border: 2px solid red;
     height: 50px;
     text-align: right;
+    flex-grow: 0.5;
 }
 .nav1 {
+    border: 2px solid red;
     padding: 10px 10px 10px 10px;
-    width: 40%;
+    flex-grow: 1;
 
 }
 .nav1 .boxtext {
     float: center;
-    width: 80%;
     height: 35px;
     border-radius: 5px;
 }
 .nav1 .icon1 {
     background-color: rgb(72, 72, 240);
-    width: 7%;
     height: 40px;
     border-radius: 5px;
     position: relative; left: 5px; top: 9px;
 
 }
 .nav2 {
-    width: 30%;
+    flex-basis: 300px;
+    border: 2px solid red;
     height: 100%;
     text-align: center;
+    flex-grow: 0.5;
     
 }
 .nav2 .icon2 {
-    border: 1px solid gray;
+    border: 2px solid blue;
+    aborder: 1px solid gray;
     float: left;
-    width: 10%;
     height: 40px;
     border-radius: 50px;
 
 }
 .nav2 h5 {
-    width: 20%;
     height: 30px;
-    position: relative; left: 84px; bottom: 38px;
+    aposition: relative; left: 84px; bottom: 38px;
 
 }
 .nav2 a {
     float: center;
-    padding: 0px 0px 0px 0px;
-    position: relative; right: 68px; bottom: 55px;
+    aposition: relative; right: 68px; bottom: 55px;
 }
 
 .container2 {
@@ -68,12 +73,15 @@
 }
 
 .content1 {
-    width: 60%;
-    position: relative; left: 100px; top: 40px;
-    border: 2px solid rgb(235, 225, 225);
+    border: 2px solid blue;
+    display: flex;
+    max-width: 60%;
     margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    aposition: relative; left: 100px; top: 40px;
+    aborder: 2px solid rgb(235, 225, 225);
 }
-
 
 /* div="content" */
 
@@ -108,10 +116,29 @@
     margin-left: 150px;
 
 }
+.bottom-box {
+    border: 2px solid green;
+    max-width: 60%;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+.a1{
+    border: 2px solid red;
+    margin: 10px;
+   
+
+}
+.a2{
+    border: 2px solid red;
+    margin: 10px;
+   
+}
 
 /*Side bar */
 .side_box1 {
-    border: 2px solid red;
+    aborder: 2px solid red;
     aborder: 2px solid rgb(235, 225, 225);
     width: 250px;
     height: 100px;
@@ -133,7 +160,7 @@
 }
 
 .side_box2 {
-    border: 2px solid red;
+    aborder: 2px solid red;
     width: 250px;
     height: 180px;
     display: block;
@@ -159,7 +186,7 @@
 }
 
 .checkout {
-    border: 2px solid red;
+    aborder: 2px solid red;
     width: 250px;
     height: 50px;
     background-color: rgb(38, 170, 38);
@@ -176,34 +203,6 @@
     text-align: center;
     position: relative; top: 15px;
     cursor: pointer;
-}
-
-.content3 {
-    border: 2px solid red;
-    width: 60%;
-    height: 50px;
-    position: relative; top: 0px; left: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.button-c3 {
-    width: 100%;
-}
-    
-.button-c3 .a1 {
-    height: 30px;
-    cursor: pointer;
-    margin-left: 10px;
-
-    
-}
-.button-c3 .a2 {
-    height: 30px;
-    cursor: pointer;
-    background-color: blue;
-    color: rgb(228, 226, 226);
-    margin-left: 630px;
 }
 
 /*align red boxes*/
