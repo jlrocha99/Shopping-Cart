@@ -1,5 +1,4 @@
 .container {
-    border: 2px solid red;
     height: 100px;
     max-width: 100%;
     display: flex;
@@ -10,13 +9,11 @@
 
 }
 .logo {
-    border: 2px solid red;
     height: 50px;
     text-align: right;
     flex-grow: 0.5;
 }
 .nav1 {
-    border: 2px solid red;
     padding: 10px 10px 10px 10px;
     flex-grow: 1;
 
@@ -35,7 +32,6 @@
 }
 .nav2 {
     flex-basis: 300px;
-    border: 2px solid red;
     height: 100%;
     text-align: center;
     flex-grow: 0.5;
@@ -73,18 +69,18 @@
 }
 
 .content1 {
-    border: 2px solid blue;
     display: flex;
     max-width: 60%;
     margin-left: 50px;
     justify-content: space-between;
-    align-items: center;
-    aposition: relative; left: 100px; top: 40px;
-    aborder: 2px solid rgb(235, 225, 225);
+    border: 2px solid rgb(235, 225, 225);
 }
 
 /* div="content" */
-
+.table1 {
+    width: 100%;
+    border-spacing: 0px;
+}
 .table1 .prod {
     text-align: left;
 }
@@ -96,7 +92,6 @@
     margin-right: 5px;
 }
 .table1 .text-p1 {
-    width: 350px;
     text-align: left;
 }
 .table1 .text2-p1 {
@@ -105,19 +100,27 @@
     text-align: left;
 }
 .table1 td {
-    width: 10px;
-    text-align: left;
+    text-align: center;
     padding: 10px 10px 60px 10px;
-
+    border: 2px solid green;
 }
 .table1 .favorite {
-    width: 200px;
+    border: 2px solid blue;
     text-align: right;
-    margin-left: 150px;
-
 }
+
+.box1 {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.box1:hover{
+}
+
+/*Bottom-box*/
 .bottom-box {
-    border: 2px solid green;
+    border: 2px solid rgb(235, 225, 225);
     max-width: 60%;
     display: flex;
     margin-left: 50px;
