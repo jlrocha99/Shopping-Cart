@@ -141,8 +141,8 @@
 
 /*Side bar */
 .side_box1 {
-    aborder: 2px solid red;
-    aborder: 2px solid rgb(235, 225, 225);
+    border: 2px solid rgb(235, 225, 225);
+    border: 2px solid red;
     width: 250px;
     height: 100px;
     display: block;
@@ -163,7 +163,7 @@
 }
 
 .side_box2 {
-    aborder: 2px solid red;
+    border: 2px solid red;
     width: 250px;
     height: 180px;
     display: block;
@@ -189,7 +189,7 @@
 }
 
 .checkout {
-    aborder: 2px solid red;
+    border: 2px solid red;
     width: 250px;
     height: 50px;
     background-color: rgb(38, 170, 38);
@@ -207,6 +207,6 @@
     position: relative; top: 15px;
     cursor: pointer;
 }
-
-/*align red boxes*/
+/*resolve red boxes*/
+/*resolve red lines*/
 /*Study responsive*/
