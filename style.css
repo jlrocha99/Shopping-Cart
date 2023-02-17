@@ -67,7 +67,10 @@
     text-align: center;
     
 }
-
+.content {
+    border: 2px solid blue;
+    adisplay: flex;
+}
 .content1 {
     display: flex;
     max-width: 60%;
@@ -115,8 +118,6 @@
     height: 30px;
     border-radius: 5px;
 }
-.box1:hover{
-}
 
 /*Bottom-box*/
 .bottom-box {
@@ -139,74 +140,15 @@
    
 }
 
-/*Side bar */
-.side_box1 {
-    border: 2px solid rgb(235, 225, 225);
+/*content2*/
+.content2 {
     border: 2px solid red;
-    width: 250px;
-    height: 100px;
-    display: block;
+    width: 35%;
     float: right;
-    position: relative; bottom: 353px; right: 170px;
-    text-align: center;
-
-}
-.boxtext {
-    position: relative; left: 10px;
-    
-}
-.apply_button {
-    background-color: blue;
-    color: white;
-    position: relative; right: 2px;
+    aposition: relative; bottom: 400px;
     
 }
 
-.side_box2 {
-    border: 2px solid red;
-    width: 250px;
-    height: 180px;
-    display: block;
-    float: right;
-    aborder: 2px solid rgb(235, 225, 225);
-    position: relative; bottom: 200px; left: 85px;
-    
-}
-.table2 {
-   
-    width: 200px;
-    height: 100px;
-}
-.table2 th {
-    text-align: left;
-    width: 120px;
-
-}
-.logo-side_box2{
-    border-top: 2px solid rgb(202, 194, 194);
-    text-align: center;
-    padding: 10px;
-}
-
-.checkout {
-    border: 2px solid red;
-    width: 250px;
-    height: 50px;
-    background-color: rgb(38, 170, 38);
-    display: block;
-    float: right;
-    position: relative; bottom: 0px; left: 340px;
-    text-align: center;
-
-
-}
-.checkout .check {
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative; top: 15px;
-    cursor: pointer;
-}
 /*resolve red boxes*/
 /*resolve red lines*/
 /*Study responsive*/
