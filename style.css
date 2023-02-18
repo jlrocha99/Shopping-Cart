@@ -67,22 +67,31 @@
     text-align: center;
     
 }
+/*----------------------------------------------------------*/
+/*Page-Content*/
 .content {
     border: 2px solid blue;
-    adisplay: flex;
-}
-.content1 {
+    max-width: 100%;
+    padding-left: 15px;
     display: flex;
-    max-width: 60%;
-    margin-left: 50px;
-    justify-content: space-between;
-    border: 2px solid rgb(235, 225, 225);
+    ajustify-content: space-between;
+}
+
+.content1 {
+    border: 2px solid red;
+    width: 50%;
+    margin-left: 100px;
 }
 
 /* div="content" */
 .table1 {
+    border: 5px solid blue;
     width: 100%;
     border-spacing: 0px;
+}
+.table1 th, td, tr{
+    border: 2px solid purple;
+    font-size: 90%;
 }
 .table1 .prod {
     text-align: left;
@@ -95,17 +104,23 @@
     margin-right: 5px;
 }
 .table1 .text-p1 {
+    width: 40px;
     text-align: left;
+    border: 2px solid red;
 }
 .table1 .text2-p1 {
+    border: 2px solid blue;
     font-size: small;
     color: rgb(207, 189, 189);
-    text-align: left;
+    text-align: right;
+    width: 50%;
 }
 .table1 td {
     text-align: center;
     padding: 10px 10px 60px 10px;
     border: 2px solid green;
+    width: 20%;
+    height: 20%;
 }
 .table1 .favorite {
     border: 2px solid blue;
@@ -119,13 +134,20 @@
     border-radius: 5px;
 }
 
+/*content2*/
+.side-content {
+    border: 2px solid black;
+    width: 25%;
+    height: 300px;
+    margin-left: 50px;
+}
+
 /*Bottom-box*/
 .bottom-box {
+    height: 50px;
     border: 2px solid rgb(235, 225, 225);
-    max-width: 60%;
-    display: flex;
+    width: 60%;
     margin-left: 50px;
-    justify-content: space-between;
 
 }
 .a1{
@@ -139,16 +161,4 @@
     margin: 10px;
    
 }
-
-/*content2*/
-.content2 {
-    border: 2px solid red;
-    width: 35%;
-    float: right;
-    aposition: relative; bottom: 400px;
-    
-}
-
-/*resolve red boxes*/
-/*resolve red lines*/
-/*Study responsive*/
+/*Remake table*/
