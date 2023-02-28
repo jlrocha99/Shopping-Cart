@@ -69,98 +69,127 @@
 }
 /*----------------------------------------------------------*/
 /*Page-Content*/
+
 .content {
     border: 2px solid blue;
-    max-width: 100%;
-    padding-left: 15px;
+    max-width: 80%; 
     display: flex;
-    ajustify-content: space-between;
+    margin-left: 180px;
+    margin-top: 30px;
 }
 
 .content1 {
-    border: 2px solid red;
-    width: 50%;
-    margin-left: 100px;
+    border: 2px solid rgb(235, 225, 225);
+    width: 60%;
 }
 
-/* div="content" */
-.table1 {
-    border: 5px solid blue;
-    width: 100%;
-    border-spacing: 0px;
-}
-.table1 th, td, tr{
-    border: 2px solid purple;
-    font-size: 90%;
+/*table-css*/
+.table1 tr, th ,td {
+
 }
 .table1 .prod {
     text-align: left;
 }
 .table1 .top {
-    color: rgb(207, 189, 189);
+    color: #aaa;
 }
-.table1 .p1 {
+img.image1 {
     float: left;
-    margin-right: 5px;
 }
-.table1 .text-p1 {
-    width: 40px;
-    text-align: left;
-    border: 2px solid red;
-}
-.table1 .text2-p1 {
-    border: 2px solid blue;
-    font-size: small;
-    color: rgb(207, 189, 189);
-    text-align: right;
+.table1 .th1 {
     width: 50%;
 }
-.table1 td {
-    text-align: center;
-    padding: 10px 10px 60px 10px;
-    border: 2px solid green;
-    width: 20%;
-    height: 20%;
+.table1 .th1-img {
+    min-width: 200px;
+    float: left;
+    margin-right: 10px;
 }
-.table1 .favorite {
-    border: 2px solid blue;
-    text-align: right;
+.table1 .text1-row{
+    float: left;
+}
+.table1 .text2-row{
+    color: #aaa;
+    font-size: 80%;
+    float: left;
+    margin-top: 10px;
+    width: 55%;
 }
 
-.box1 {
+/*Quantybox*/
+.table1 .quant-box {
     text-align: center;
-    width: 80px;
+    width: 100%;
     height: 30px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
+
+/*pricebox*/
+.table1 .price {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+/*favoritebox*/
+.table1 .favorite-box{
+    width: 30%;
+}
+.table1 .favorite {
+    margin-bottom: 50px;
+    text-align: right;
+}
+.table1 .but {
+    width: 38px;
+    height: 34px;
+    margin-right: 8px;
+    background-color: white;
+    border: 1px solid rgb(192, 182, 182);
+    border-radius: 5px;
+}
+.table1 .remove {
+    height: 34px;
+    float: right;
+    border-radius: 5px;
+}
+/*End-table1-css*/
 
 /*content2*/
 .side-content {
     border: 2px solid black;
     width: 25%;
-    height: 300px;
     margin-left: 50px;
 }
 
-/*Bottom-box*/
+/*Footer*/
 .bottom-box {
     height: 50px;
     border: 2px solid rgb(235, 225, 225);
-    width: 60%;
-    margin-left: 50px;
+    width: 48%;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-between;
 
 }
-.a1{
-    border: 2px solid red;
+.box1{
+    width: 130px;
+    height: 30px;
     margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box2{
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(16, 69, 243);
+    border-radius: 5px;
+    cursor: pointer;
    
+}
+/*End-Footer*/
 
-}
-.a2{
-    border: 2px solid red;
-    margin: 10px;
-   
-}
-/*Remake table*/
+
+/*End-AsideBar*/
 /*Study flexbox*/
 /*Study Grid*/
