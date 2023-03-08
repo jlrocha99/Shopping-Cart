@@ -1,40 +1,46 @@
 .container {
+    border: 2px solid blue;
     height: 100px;
     max-width: 100%;
     display: flex;
     /*Horizontal align*/
-    justify-content: space-around;
+    justify-content: space-between;
     /*Vertical align*/
     align-items: center;
 
 }
 .logo {
+    border: 2px solid rgb(11, 133, 82);
+    width: 20%;
     height: 50px;
     text-align: right;
-    flex-grow: 0.5;
 }
 .nav1 {
-    padding: 10px 10px 10px 10px;
-    flex-grow: 1;
-
+    border: 2px solid red;
+    width: 40%;
+    text-align: center;
 }
 .nav1 .boxtext {
-    float: center;
-    height: 35px;
+    border: 2px solid rgb(235, 225, 225);
+    width: 80%;
+    height: 30px;
     border-radius: 5px;
+    padding-top: 10px;
 }
 .nav1 .icon1 {
+    border: 2px solid red;
     background-color: rgb(72, 72, 240);
     height: 40px;
     border-radius: 5px;
-    position: relative; left: 5px; top: 9px;
+    margin-top: 10px;
 
 }
 .nav2 {
-    flex-basis: 300px;
-    height: 100%;
-    text-align: center;
-    flex-grow: 0.5;
+    border: 2px solid green;
+    width: 20%;
+    margin-right: 100px;
+    height: 80%;
+    atext-align: center;
     
 }
 .nav2 .icon2 {
@@ -46,13 +52,15 @@
 
 }
 .nav2 h5 {
+    border: 2px solid red;
+    width: 100px;
+    float: right;
     height: 30px;
-    aposition: relative; left: 84px; bottom: 38px;
 
 }
 .nav2 a {
-    float: center;
-    aposition: relative; right: 68px; bottom: 55px;
+    float: right;
+
 }
 
 .container2 {
@@ -71,7 +79,6 @@
 /*Page-Content*/
 
 .content {
-    border: 2px solid blue;
     max-width: 80%; 
     display: flex;
     margin-left: 180px;
@@ -83,16 +90,17 @@
     width: 60%;
 }
 
-/*table-css*/
-.table1 tr, th ,td {
-
-}
+                    /*table-css*/
 .table1 .prod {
     text-align: left;
 }
 .table1 .top {
     color: #aaa;
 }
+.table1 .price-box{
+    padding-left: 20px;
+}
+
 img.image1 {
     float: left;
 }
@@ -133,6 +141,7 @@ img.image1 {
 /*favoritebox*/
 .table1 .favorite-box{
     width: 30%;
+    padding-right: 10px;
 }
 .table1 .favorite {
     margin-bottom: 50px;
@@ -145,20 +154,95 @@ img.image1 {
     background-color: white;
     border: 1px solid rgb(192, 182, 182);
     border-radius: 5px;
+    cursor: pointer;
+}
+.table1 .but:hover{
+    background-color: rgb(190, 172, 172);
+
 }
 .table1 .remove {
+    background-color: rgba(233, 227, 227, 0.808);
     height: 34px;
     float: right;
     border-radius: 5px;
+    cursor: pointer;
 }
-/*End-table1-css*/
+.table1 .remove:hover{
+    background-color: rgb(190, 172, 172);
+
+}
+            /*-----------End-table1-css-------------*/
+
 
 /*content2*/
 .side-content {
-    border: 2px solid black;
+    aborder: 2px solid black;
     width: 25%;
     margin-left: 50px;
+    display: flex;
 }
+
+.side_box1 {
+    width: 300px;
+    border: 1px solid rgb(192, 182, 182);
+    text-align: center;
+}
+.boxtext{
+    width: 130px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: 1px solid rgb(192, 182, 182);
+    margin-bottom: 15px;
+}
+.apply_button{
+    width: 55px;
+    height: 40px;
+    color: white;
+    background-color: rgb(16, 69, 243);
+    border: 1px solid rgb(192, 182, 182);
+    padding: 8px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.side_box2 {
+    border: 1px solid rgb(192, 182, 182);
+    margin-top: 10px;
+
+}
+.table2 {
+    width: 100%;
+    padding: 15px;
+}
+.table2 th {
+    text-align: left;
+}
+.table2 td {
+    text-align: right;
+}
+.logo_side-box3{
+    border-top: 1px solid rgb(192, 182, 182);
+    text-align: center;
+}
+.logo-card:hover{
+    border-bottom: 3px solid black;
+
+}
+.side_box3 .check{
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.side_box3 .check:hover{
+    background-color: rgb(28, 179, 28);
+}
+
 
 /*Footer*/
 .bottom-box {
@@ -185,7 +269,6 @@ img.image1 {
     background-color: rgb(16, 69, 243);
     border-radius: 5px;
     cursor: pointer;
-   
 }
 /*End-Footer*/
 
