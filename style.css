@@ -16,7 +16,7 @@
     text-align: right;
 }
 .nav1 {
-    border: 2px solid red;
+    aborder: 2px solid red;
     width: 40%;
     text-align: center;
 }
@@ -28,7 +28,7 @@
     padding-top: 10px;
 }
 .nav1 .icon1 {
-    border: 2px solid red;
+    aborder: 2px solid red;
     background-color: rgb(72, 72, 240);
     height: 40px;
     border-radius: 5px;
@@ -36,31 +36,39 @@
 
 }
 .nav2 {
-    border: 2px solid green;
-    width: 20%;
+    border: 2px solid rgb(25, 221, 25);
+    width: 25%;
     margin-right: 100px;
     height: 80%;
     atext-align: center;
+    display: flex;
+    ajustify-content: space-between;
     
 }
-.nav2 .icon2 {
+.nav2 .nav2-icons{
     border: 2px solid blue;
-    aborder: 1px solid gray;
-    float: left;
+    display: flex;
+}
+.nav2 .icon2 {
+    border: 2px solid rgb(192, 182, 182);;
     height: 40px;
     border-radius: 50px;
-
+    padding: 2px;
+    margin: 2px;
+    margin-top: 20px;
 }
-.nav2 h5 {
+.nav2 .text-nav2{
     border: 2px solid red;
-    width: 100px;
-    float: right;
-    height: 30px;
-
+    height: 100%;
+    width: 65%;
+    display: flex;
+    aalign-items: center;
 }
-.nav2 a {
-    float: right;
-
+.nav2 a{
+    border: 2px solid red;
+    padding: 1px;
+    margin-top: 40px;
+    amargin-right: 50px;
 }
 
 .container2 {
