@@ -1,5 +1,4 @@
 .container {
-    border: 2px solid blue;
     height: 100px;
     max-width: 100%;
     display: flex;
