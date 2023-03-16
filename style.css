@@ -1,3 +1,7 @@
+body{
+    abackground-color: rgb(242, 242, 253);
+}
+
 .container {
     height: 100px;
     max-width: 100%;
@@ -283,9 +287,3 @@ img.image1 {
     border-radius: 5px;
     cursor: pointer;
 }
-/*End-Footer*/
-
-
-/*End-AsideBar*/
-/*Study flexbox*/
-/*Study Grid*/
