@@ -10,15 +10,21 @@
 
 }
 .logo {
-    border: 2px solid rgb(11, 133, 82);
     width: 20%;
     height: 50px;
     text-align: right;
 }
+.logo-name{
+    color: rgba(76, 76, 173, 0.774);
+}
+
 .nav1 {
-    aborder: 2px solid red;
     width: 40%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 .nav1 .boxtext {
     border: 2px solid rgb(235, 225, 225);
@@ -32,43 +38,43 @@
     background-color: rgb(72, 72, 240);
     height: 40px;
     border-radius: 5px;
-    margin-top: 10px;
-
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.nav1 .icon1:active{
+    background-color: red;
 }
 .nav2 {
-    border: 2px solid rgb(25, 221, 25);
     width: 25%;
     margin-right: 100px;
     height: 80%;
-    atext-align: center;
     display: flex;
-    ajustify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
 }
 .nav2 .nav2-icons{
-    border: 2px solid blue;
     display: flex;
+    height: 70%;
 }
 .nav2 .icon2 {
-    border: 2px solid rgb(192, 182, 182);;
+    border: 2px solid rgb(192, 182, 182);
     height: 40px;
     border-radius: 50px;
     padding: 2px;
     margin: 2px;
-    margin-top: 20px;
 }
 .nav2 .text-nav2{
-    border: 2px solid red;
-    height: 100%;
+    height: 70%;
     width: 65%;
     display: flex;
-    aalign-items: center;
+    align-items: center;
+    justify-content: left;
 }
 .nav2 a{
-    border: 2px solid red;
     padding: 1px;
     margin-top: 40px;
-    amargin-right: 50px;
+    color: black;
 }
 
 .container2 {
